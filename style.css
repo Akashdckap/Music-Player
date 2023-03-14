@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: none;
+    max-width: 1040px;
+    width:50%;
+    margin: auto;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-top: 75px;
+    background-color: #f1f3f4;
+    box-shadow: 0px 0px 20px black;
+}
+body{
+    background-image:url(./images/Waller.jpg);
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.name{
+    text-align: center;
+    font-size:xx-large;
+    color: blue;
+    margin-top: 15px;
+}
+.image{
+    justify-content: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 175px;
+    margin-top: 20px;
+    animation: rotation 18s infinite linear;
+}
+@keyframes rotation {
+    to {
+      transform: rotate(360deg);
+    }
+}
+audio{
+    margin-left: 175px;
+    margin-top: 15px;
+    position: relative;
+}
+.icons{
+    font-size: 40px;
+    color: blue;
+    position: absolute;
+    left: 420px; 
+    bottom:55%
+}
+.icons>.fa-forward-step{
+    margin-left: 390px;
+} 
+.icons>.fa-house{
+    position: absolute;
+    top: 260px;
+    right: 90%;
+}
+.icons>.fa-shuffle{
+    position: absolute;
+    top:260px;
+    left:92%
+}
+.player{
+    height: 300px;
+    width: 300px;
+    font-size: x-large;
+    margin-top: 100px;
+    margin-left: 475px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+.player:hover{
+    cursor:pointer;
+}
+.start{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: White;
+}
+i:hover{
+    cursor: pointer;
+}
