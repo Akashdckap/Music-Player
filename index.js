@@ -55,7 +55,7 @@ const Music = [{id:1,
     id:10,
     Name:"Pala palakura pagalani",
     song:"./Songs/Palapalakura.mp3",
-    img:"../images/palapakura.jpeg"
+    img:"./images/palapakura.jpeg"
 },
 {   
     id:11,
