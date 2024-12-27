@@ -86,7 +86,11 @@ audio{
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+<<<<<<< Updated upstream
     color: black;
+=======
+    color: purple;
+>>>>>>> Stashed changes
 }
 i:hover{
     cursor: pointer;
